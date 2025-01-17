@@ -1,0 +1,325 @@
+
+/* font links */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+
+:root{
+   
+    --balck:#000000;
+    --white: #ffffff;
+    --gray:#8e8e8e;
+    
+    --lato:"Lato", serif;
+    --rob:"Roboto", serif;
+    }
+
+/*common css*/
+body{
+        font-family: var(--rob) !important;
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        color: #b8b8b8;
+    }
+
+.pb_custom{
+    padding-bottom: 95px;
+}
+/* common end */
+
+/* header start */
+.header{
+    padding:15px 0;
+    font-family: var(--lato);
+}
+.logo{
+    
+}
+.ntog:focus{
+    box-shadow: none;
+}
+.menu{}
+.menu ul li a{
+    margin-right: 12px;
+    font-size: 16px !important;
+    color: var(--gray) !important;
+    text-transform: uppercase!important;
+}
+.search-icon{
+    background-color: transparent !important;
+    border: 0;
+    padding-top: 12px;
+    font-size: 17px;
+    color: var(--gray);
+}
+.menu ul li a:hover{
+    color:var(--balck) !important;
+    border-bottom: 2px solid #333 !important;
+    transition: .33s linear;
+}
+
+.dropdown-custom{
+    top:40px !important;
+    left:-168px !important;
+}
+
+.input-search:hover{
+    background-color: transparent;
+    border-bottom: 2px var(--gray)
+}
+.search-custom{
+    padding: 10px 14px;
+    border: 1px solid #8e8e8e;
+    border-radius:5px;
+    font-size:20px;
+    color:#8e8e8e;
+    transition: .33s linear;
+}
+.search-custom:hover{
+    cursor: pointer;
+    border:1px solid #8e8e8e;
+    background-color: #333;
+    color:#8e8e8e;
+}
+/* header end */
+/* banner start */
+
+.banner{
+    background-image: url("../image/Slideimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Slider Start */
+.slider-text {
+    margin: 210px 0 165px;
+}
+
+.slider-text h2 {
+    font-family: lato-bold;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+
+.slider-text p {
+    margin: 40px 0;
+    padding-right: 69px;
+
+    color: #fff;
+    line-height: 30px;
+}
+.btn-c {
+    padding: 13px 40px;
+    font-family: roboto-medium;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #333;
+    transition: .33s linear;
+}
+
+.btn-learn {
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-c:hover {
+
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-learn:hover {
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-arrow {
+    margin-left: 15px;
+}
+
+.slider-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.c_line {
+    font-size: 20px;
+}
+
+/* Slider End */
+/* Banner End */
+
+/* Slider section start*/
+/* Slider section end*/
+
+/* Welcome section start*/
+/* title start */
+.shape{
+    width:2px;
+    height:50px;
+    background-color:#333;
+}
+.t_head{
+    margin-top: 20px;
+    font-family: lato-regular !important;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;   
+}
+/* title end */
+/* welcome paragraph start */
+.w_text{
+    padding:40px 0;
+}
+.w_text p{
+    line-height: 28px;
+}
+/* welcome paragraph end */
+/* Welcome section end*/
+
+/* About section start*/
+/* About section end*/
+
+/* Recent work section start*/
+/* Recent work section end*/
+
+/* Why choose nipro section start*/
+/* Why choose nipro section end*/
+
+/* Who work with us section start*/
+/* Who work with us section end*/
+
+/* Best price section start*/
+/* Best price section end*/
+
+/* Call to action section start*/
+/* Call to action section end*/
+
+/* Testimonial section start*/
+/* Testimonial section end*/
+
+/* Contact Us start */
+.contact_from {
+    padding: 55px 190px 0;
+    border: 1px solid #cccccc;
+}
+
+.contact_title {
+    position: absolute;
+    top: -39px;
+    left: 125px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.custom_input {
+    border: none;
+    padding: 12px 30px;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    font-family: roboto-regular;
+    font-size: 16px;
+    transition: .33s linear;
+}
+
+.custom_input:focus {
+    border: none;
+    border-bottom: 1px solid #333 !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+.text_area {
+    padding-bottom: 60px;
+}
+
+::placeholder {
+    color: #8e8e8e !important;
+    transition: .33s linear;
+}
+
+:focus::placeholder {
+    color: #333 !important;
+}
+
+.btn_send {
+    margin: 25px 0 40px;
+}
+
+/* Contact Us end */
+
+/* Footer Section Start */
+
+footer {
+    background: url(../image/Background_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.f_text p {
+    margin: 30px 0;
+    color: #fff;
+
+
+}
+
+
+
+.f_link li {
+    margin-left: 5px;
+}
+
+.f_link li a i {
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .33s linear;
+}
+
+.f_link li a i:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Footer Down Start */
+.footer_down {
+    padding: 35px 0;
+    border-top: 1px solid #cccccc;
+}
+
+
+
+.fd_text p {
+    color: #fff;
+}
+
+.fd_text p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.fd_link ul li {
+    margin-left: 20px;
+}
+
+.fd_link ul li a {
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+/* Footer Down End */
+/* Footer Section End */
